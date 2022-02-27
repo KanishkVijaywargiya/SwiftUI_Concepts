@@ -15,6 +15,10 @@
 		04213ED927B28016005706B3 /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04213ED827B28016005706B3 /* IconsBootcamp.swift */; };
 		04213EDB27B281D8005706B3 /* ImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04213EDA27B281D8005706B3 /* ImageBootcamp.swift */; };
 		04213EDD27B284ED005706B3 /* Background&OverlayBootcamps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04213EDC27B284ED005706B3 /* Background&OverlayBootcamps.swift */; };
+		0428949827CB89A90063E87A /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428949727CB89A90063E87A /* HapticsBootcamp.swift */; };
+		0428949A27CB8C580063E87A /* LocalPushNotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428949927CB8C580063E87A /* LocalPushNotificationsBootcamp.swift */; };
+		0428949C27CB92710063E87A /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428949B27CB92710063E87A /* HashableBootcamp.swift */; };
+		0428949E27CB9B0D0063E87A /* SortFilterMapBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428949D27CB9B0D0063E87A /* SortFilterMapBootcamp.swift */; };
 		0436380F27BE629F00677BB8 /* EnvironmentObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436380E27BE629F00677BB8 /* EnvironmentObjectBootcamp.swift */; };
 		0436381127BE6F5200677BB8 /* AppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436381027BE6F5200677BB8 /* AppStorageBootcamp.swift */; };
 		0436381427BE862D00677BB8 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436381327BE862D00677BB8 /* IntroView.swift */; };
@@ -64,6 +68,10 @@
 		04213ED827B28016005706B3 /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
 		04213EDA27B281D8005706B3 /* ImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBootcamp.swift; sourceTree = "<group>"; };
 		04213EDC27B284ED005706B3 /* Background&OverlayBootcamps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Background&OverlayBootcamps.swift"; sourceTree = "<group>"; };
+		0428949727CB89A90063E87A /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
+		0428949927CB8C580063E87A /* LocalPushNotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPushNotificationsBootcamp.swift; sourceTree = "<group>"; };
+		0428949B27CB92710063E87A /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
+		0428949D27CB9B0D0063E87A /* SortFilterMapBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterMapBootcamp.swift; sourceTree = "<group>"; };
 		0436380E27BE629F00677BB8 /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
 		0436381027BE6F5200677BB8 /* AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBootcamp.swift; sourceTree = "<group>"; };
 		0436381327BE862D00677BB8 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
@@ -222,6 +230,10 @@
 				0498360927CA4A1F00E69349 /* maskBootcamp.swift */,
 				0498360B27CA509800E69349 /* SoundsBootcamp.swift */,
 				0498360D27CA55FF00E69349 /* Sounds */,
+				0428949727CB89A90063E87A /* HapticsBootcamp.swift */,
+				0428949927CB8C580063E87A /* LocalPushNotificationsBootcamp.swift */,
+				0428949B27CB92710063E87A /* HashableBootcamp.swift */,
+				0428949D27CB9B0D0063E87A /* SortFilterMapBootcamp.swift */,
 			);
 			path = SwiftUI_Intermidiate;
 			sourceTree = "<group>";
@@ -318,10 +330,13 @@
 				04EF681927B161C50026C1C4 /* ContentView.swift in Sources */,
 				043ED94427C4EAF900F0855F /* LongPressGestureBootcamp.swift in Sources */,
 				04213EDD27B284ED005706B3 /* Background&OverlayBootcamps.swift in Sources */,
+				0428949A27CB8C580063E87A /* LocalPushNotificationsBootcamp.swift in Sources */,
 				0410BFF227B3D75D00D6E33B /* InitializerBootcamp.swift in Sources */,
+				0428949C27CB92710063E87A /* HashableBootcamp.swift in Sources */,
 				0436381127BE6F5200677BB8 /* AppStorageBootcamp.swift in Sources */,
 				04A4422D27C7A66800D28469 /* DragGestureBootcamp2.swift in Sources */,
 				04F5D35527B92EAE003DB2C3 /* GridBootcamp.swift in Sources */,
+				0428949E27CB9B0D0063E87A /* SortFilterMapBootcamp.swift in Sources */,
 				04CC251527BCE77200C963F7 /* ContextMenuBootcamp.swift in Sources */,
 				04213ED927B28016005706B3 /* IconsBootcamp.swift in Sources */,
 				04F5D35B27BA3B1E003DB2C3 /* TransitionBootcamp.swift in Sources */,
@@ -330,6 +345,7 @@
 				04CC251727BCF0FF00C963F7 /* ColorPickerBootcamp.swift in Sources */,
 				04A4422927C79CDB00D28469 /* RotationGestureBootcamp.swift in Sources */,
 				0498360C27CA509800E69349 /* SoundsBootcamp.swift in Sources */,
+				0428949827CB89A90063E87A /* HapticsBootcamp.swift in Sources */,
 				04CC251D27BD275600C963F7 /* ListSwipeActionBootcamp.swift in Sources */,
 				04F5D35D27BA6F4B003DB2C3 /* PopoverBootcamp.swift in Sources */,
 				0498360627CA353800E69349 /* GeometryReaderBootcamp.swift in Sources */,
