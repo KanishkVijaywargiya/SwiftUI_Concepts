@@ -33,6 +33,11 @@
 		0458B87527D0CF6800021DB3 /* CoreDataRelationshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458B87427D0CF6800021DB3 /* CoreDataRelationshipViewModel.swift */; };
 		0458B87727D0D03600021DB3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458B87627D0D03600021DB3 /* CoreDataManager.swift */; };
 		0458B87A27D0D22D00021DB3 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0458B87827D0D22D00021DB3 /* CoreDataContainer.xcdatamodeld */; };
+		0488F0A127D62D830079AB4A /* DownloadWithEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488F0A027D62D830079AB4A /* DownloadWithEscapingBootcamp.swift */; };
+		0488F0A327D62DD30079AB4A /* DownloadWithEscapingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488F0A227D62DD30079AB4A /* DownloadWithEscapingViewModel.swift */; };
+		0488F0A627D73BB50079AB4A /* DownloadWithCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488F0A527D73BB50079AB4A /* DownloadWithCombineBootcamp.swift */; };
+		0488F0A827D73FF00079AB4A /* DownloadWithCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488F0A727D73FF00079AB4A /* DownloadWithCombineViewModel.swift */; };
+		0488F0AA27D76DBB0079AB4A /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488F0A927D76DBB0079AB4A /* TimerBootcamp.swift */; };
 		0498360427CA2F3E00E69349 /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498360327CA2F3E00E69349 /* ScrollViewReaderBootcamp.swift */; };
 		0498360627CA353800E69349 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498360527CA353800E69349 /* GeometryReaderBootcamp.swift */; };
 		0498360827CA411E00E69349 /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498360727CA411E00E69349 /* MultipleSheetsBootcamp.swift */; };
@@ -103,6 +108,11 @@
 		0458B87427D0CF6800021DB3 /* CoreDataRelationshipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipViewModel.swift; sourceTree = "<group>"; };
 		0458B87627D0D03600021DB3 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		0458B87927D0D22D00021DB3 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
+		0488F0A027D62D830079AB4A /* DownloadWithEscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingBootcamp.swift; sourceTree = "<group>"; };
+		0488F0A227D62DD30079AB4A /* DownloadWithEscapingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingViewModel.swift; sourceTree = "<group>"; };
+		0488F0A527D73BB50079AB4A /* DownloadWithCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombineBootcamp.swift; sourceTree = "<group>"; };
+		0488F0A727D73FF00079AB4A /* DownloadWithCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombineViewModel.swift; sourceTree = "<group>"; };
+		0488F0A927D76DBB0079AB4A /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
 		0498360327CA2F3E00E69349 /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		0498360527CA353800E69349 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		0498360727CA411E00E69349 /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
@@ -187,6 +197,24 @@
 				0458B87827D0D22D00021DB3 /* CoreDataContainer.xcdatamodeld */,
 			);
 			path = CoreDataRelationshipsBootcamp;
+			sourceTree = "<group>";
+		};
+		0488F09F27D62D540079AB4A /* DownloadWithEscapingBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				0488F0A027D62D830079AB4A /* DownloadWithEscapingBootcamp.swift */,
+				0488F0A227D62DD30079AB4A /* DownloadWithEscapingViewModel.swift */,
+			);
+			path = DownloadWithEscapingBootcamp;
+			sourceTree = "<group>";
+		};
+		0488F0A427D739C10079AB4A /* DownloadWithCombineBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				0488F0A527D73BB50079AB4A /* DownloadWithCombineBootcamp.swift */,
+				0488F0A727D73FF00079AB4A /* DownloadWithCombineViewModel.swift */,
+			);
+			path = DownloadWithCombineBootcamp;
 			sourceTree = "<group>";
 		};
 		0498360D27CA55FF00E69349 /* Sounds */ = {
@@ -333,6 +361,9 @@
 				04AB684427D4942A00BCED11 /* TypealiasBootcamp.swift */,
 				04C1E95327D4ABB000BC8004 /* EscapingBootcamp */,
 				04C1E95827D4C64900BC8004 /* CodableBootcamp */,
+				0488F09F27D62D540079AB4A /* DownloadWithEscapingBootcamp */,
+				0488F0A427D739C10079AB4A /* DownloadWithCombineBootcamp */,
+				0488F0A927D76DBB0079AB4A /* TimerBootcamp.swift */,
 			);
 			path = SwiftUI_Intermidiate;
 			sourceTree = "<group>";
@@ -416,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0488F0AA27D76DBB0079AB4A /* TimerBootcamp.swift in Sources */,
 				04C1E95227D4AB7A00BC8004 /* EscapingBootcamp.swift in Sources */,
 				04AB683927D3489C00BCED11 /* BackgroundThreadBootcamp.swift in Sources */,
 				04AB683C27D348ED00BCED11 /* BackgroundThreadViewModel.swift in Sources */,
@@ -429,9 +461,11 @@
 				04EF682D27B16DE80026C1C4 /* TextBootcamp.swift in Sources */,
 				04CC251F27BD2DB500C963F7 /* AsyncImgBootcamp.swift in Sources */,
 				04213ED527B275AF005706B3 /* ColorsBootcamp.swift in Sources */,
+				0488F0A827D73FF00079AB4A /* DownloadWithCombineViewModel.swift in Sources */,
 				0498360A27CA4A1F00E69349 /* maskBootcamp.swift in Sources */,
 				04CC252127BD365500C963F7 /* ViewModelBootcamp.swift in Sources */,
 				04EF681927B161C50026C1C4 /* ContentView.swift in Sources */,
+				0488F0A327D62DD30079AB4A /* DownloadWithEscapingViewModel.swift in Sources */,
 				043ED94427C4EAF900F0855F /* LongPressGestureBootcamp.swift in Sources */,
 				04213EDD27B284ED005706B3 /* Background&OverlayBootcamps.swift in Sources */,
 				0428949A27CB8C580063E87A /* LocalPushNotificationsBootcamp.swift in Sources */,
@@ -461,9 +495,11 @@
 				0436381627BE87BA00677BB8 /* OnboardingView.swift in Sources */,
 				0498360427CA2F3E00E69349 /* ScrollViewReaderBootcamp.swift in Sources */,
 				0410BFF027B3CC4A00D6E33B /* StacksBootcamp.swift in Sources */,
+				0488F0A627D73BB50079AB4A /* DownloadWithCombineBootcamp.swift in Sources */,
 				04F5D35127B92927003DB2C3 /* ForEachBootcamp.swift in Sources */,
 				04AB683E27D4886900BCED11 /* WeakSelfBootcamp.swift in Sources */,
 				0458B86E27CF9B1700021DB3 /* FruitsContainer.xcdatamodeld in Sources */,
+				0488F0A127D62D830079AB4A /* DownloadWithEscapingBootcamp.swift in Sources */,
 				04F5D35927BA3305003DB2C3 /* AnimationTimingBootcamp.swift in Sources */,
 				04C1E95527D4ABCC00BC8004 /* EscapingViewModel.swift in Sources */,
 				0458B86927CF98F700021DB3 /* CoreDataBootcamp.swift in Sources */,
