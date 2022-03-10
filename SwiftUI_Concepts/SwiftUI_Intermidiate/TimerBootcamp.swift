@@ -61,13 +61,18 @@ struct TimerBootcamp: View {
                 Rectangle().tag(3).foregroundColor(.green)
                 Rectangle().tag(4).foregroundColor(.orange)
                 Rectangle().tag(5).foregroundColor(.yellow)
-            }.frame(height: 200).tabViewStyle(PageTabViewStyle())
+            }
+            .frame(height: 500)
+            .tabViewStyle(PageTabViewStyle())
+            .cornerRadius(20)
+            .shadow(radius: 10)
+            .padding()
             
             // animation circular loader
             //HStack(spacing: 15) {
-              //  Circle().offset(y: count == 1 ? -20 : 0)
-                //Circle().offset(y: count == 2 ? -20 : 0)
-                //Circle().offset(y: count == 3 ? -20 : 0)
+            //  Circle().offset(y: count == 1 ? -20 : 0)
+            //Circle().offset(y: count == 2 ? -20 : 0)
+            //Circle().offset(y: count == 3 ? -20 : 0)
             //}
             //.frame(width: 150)
             //.foregroundColor(.white)
