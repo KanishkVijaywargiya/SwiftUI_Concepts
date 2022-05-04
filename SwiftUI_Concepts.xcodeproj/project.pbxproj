@@ -36,6 +36,9 @@
 		0458B87527D0CF6800021DB3 /* CoreDataRelationshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458B87427D0CF6800021DB3 /* CoreDataRelationshipViewModel.swift */; };
 		0458B87727D0D03600021DB3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458B87627D0D03600021DB3 /* CoreDataManager.swift */; };
 		0458B87A27D0D22D00021DB3 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0458B87827D0D22D00021DB3 /* CoreDataContainer.xcdatamodeld */; };
+		046415E0282283BB00FB5858 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046415DF282283BB00FB5858 /* GenericsBootcamp.swift */; };
+		046415E32822844300FB5858 /* GenericsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046415E22822844300FB5858 /* GenericsViewModel.swift */; };
+		046415E52822933C00FB5858 /* GenericsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046415E42822933C00FB5858 /* GenericsModel.swift */; };
 		0488F0A127D62D830079AB4A /* DownloadWithEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488F0A027D62D830079AB4A /* DownloadWithEscapingBootcamp.swift */; };
 		0488F0A327D62DD30079AB4A /* DownloadWithEscapingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488F0A227D62DD30079AB4A /* DownloadWithEscapingViewModel.swift */; };
 		0488F0A627D73BB50079AB4A /* DownloadWithCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488F0A527D73BB50079AB4A /* DownloadWithCombineBootcamp.swift */; };
@@ -133,6 +136,9 @@
 		0458B87427D0CF6800021DB3 /* CoreDataRelationshipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipViewModel.swift; sourceTree = "<group>"; };
 		0458B87627D0D03600021DB3 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		0458B87927D0D22D00021DB3 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
+		046415DF282283BB00FB5858 /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
+		046415E22822844300FB5858 /* GenericsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsViewModel.swift; sourceTree = "<group>"; };
+		046415E42822933C00FB5858 /* GenericsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsModel.swift; sourceTree = "<group>"; };
 		0488F0A027D62D830079AB4A /* DownloadWithEscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingBootcamp.swift; sourceTree = "<group>"; };
 		0488F0A227D62DD30079AB4A /* DownloadWithEscapingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingViewModel.swift; sourceTree = "<group>"; };
 		0488F0A527D73BB50079AB4A /* DownloadWithCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombineBootcamp.swift; sourceTree = "<group>"; };
@@ -259,6 +265,16 @@
 				0458B87827D0D22D00021DB3 /* CoreDataContainer.xcdatamodeld */,
 			);
 			path = CoreDataRelationshipsBootcamp;
+			sourceTree = "<group>";
+		};
+		046415E12822842800FB5858 /* GenericsBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				046415DF282283BB00FB5858 /* GenericsBootcamp.swift */,
+				046415E22822844300FB5858 /* GenericsViewModel.swift */,
+				046415E42822933C00FB5858 /* GenericsModel.swift */,
+			);
+			path = GenericsBootcamp;
 			sourceTree = "<group>";
 		};
 		0488F09F27D62D540079AB4A /* DownloadWithEscapingBootcamp */ = {
@@ -517,6 +533,7 @@
 				04A742892818187100BC996B /* MatchedGeometryEffectBootcamp */,
 				04A7428A2818224C00BC996B /* MatchedView */,
 				044DECC1281A761900D7BCCB /* CustomShapesBootcamp.swift */,
+				046415E12822842800FB5858 /* GenericsBootcamp */,
 			);
 			path = SwiftUI_Advance;
 			sourceTree = "<group>";
@@ -599,6 +616,8 @@
 				04AB683C27D348ED00BCED11 /* BackgroundThreadViewModel.swift in Sources */,
 				04CC251327BCE2B000C963F7 /* ActionSheetBootcamp.swift in Sources */,
 				0458B86B27CF9A3600021DB3 /* CoreDataViewModel.swift in Sources */,
+				046415E0282283BB00FB5858 /* GenericsBootcamp.swift in Sources */,
+				046415E52822933C00FB5858 /* GenericsModel.swift in Sources */,
 				04213EDB27B281D8005706B3 /* ImageBootcamp.swift in Sources */,
 				043ED94627C4F5CB00F0855F /* MagnificationGestureBootcamp.swift in Sources */,
 				04AB684527D4942A00BCED11 /* TypealiasBootcamp.swift in Sources */,
@@ -630,6 +649,7 @@
 				04C1E95727D4C62200BC8004 /* CodableBootcamp.swift in Sources */,
 				042E41FB27D8B8F30065FD3C /* SubscriberViewModel.swift in Sources */,
 				04D5787927DB59CF000EC980 /* PhotoModelDataService.swift in Sources */,
+				046415E32822844300FB5858 /* GenericsViewModel.swift in Sources */,
 				04A4422D27C7A66800D28469 /* DragGestureBootcamp2.swift in Sources */,
 				04D5788327DB8510000EC980 /* PhotoModelFileManager.swift in Sources */,
 				04F5D35527B92EAE003DB2C3 /* GridBootcamp.swift in Sources */,
