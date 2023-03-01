@@ -21,28 +21,28 @@ struct AnimationTimingBootcamp: View {
                 .animation(.spring(
                     response: 0.5,
                     dampingFraction: 0.7,
-                    blendDuration: 1.0))
+                    blendDuration: 1.0), value: isAnimate)
 //                .animation(.spring())
             
             RoundedRectangle(cornerRadius: isAnimate ? 20 : 0)
                 .frame(width: isAnimate ? 350 : 50, height: 100)
-                .animation(Animation.linear(duration: timing))
+                .animation(Animation.linear(duration: timing), value: isAnimate)
             
             RoundedRectangle(cornerRadius: isAnimate ? 20 : 0)
                 .frame(width: isAnimate ? 350 : 50, height: 100)
-                .animation(Animation.linear)
+                .animation(Animation.linear, value: isAnimate)
             
             RoundedRectangle(cornerRadius: isAnimate ? 20 : 0)
                 .frame(width: isAnimate ? 350 : 50, height: 100)
-                .animation(Animation.easeIn)
+                .animation(Animation.easeIn, value: isAnimate)
             
             RoundedRectangle(cornerRadius: isAnimate ? 20 : 0)
                 .frame(width: isAnimate ? 350 : 50, height: 100)
-                .animation(Animation.easeInOut)
+                .animation(Animation.easeInOut, value: isAnimate)
             
             RoundedRectangle(cornerRadius: isAnimate ? 20 : 0)
                 .frame(width: isAnimate ? 350 : 50, height: 100)
-                .animation(Animation.easeOut)
+                .animation(Animation.easeOut, value: isAnimate)
         }
     }
 }

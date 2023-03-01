@@ -10,7 +10,7 @@ import SwiftUI
 struct InitializerBootcamp: View {
     let backgroundColor: Color
     let count: Int
-    let title: String
+    let title: String   
     
     init(fruit: Fruits) {
         if fruit == .apple {
