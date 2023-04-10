@@ -45,11 +45,13 @@
 		0458B87527D0CF6800021DB3 /* CoreDataRelationshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458B87427D0CF6800021DB3 /* CoreDataRelationshipViewModel.swift */; };
 		0458B87727D0D03600021DB3 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458B87627D0D03600021DB3 /* CoreDataManager.swift */; };
 		0458B87A27D0D22D00021DB3 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0458B87827D0D22D00021DB3 /* CoreDataContainer.xcdatamodeld */; };
+		0460F30629B0E10800E352C3 /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460F30529B0E10800E352C3 /* DownloadImageAsync.swift */; };
 		046415E0282283BB00FB5858 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046415DF282283BB00FB5858 /* GenericsBootcamp.swift */; };
 		046415E32822844300FB5858 /* GenericsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046415E22822844300FB5858 /* GenericsViewModel.swift */; };
 		046415E52822933C00FB5858 /* GenericsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046415E42822933C00FB5858 /* GenericsModel.swift */; };
 		0466482E2837C403000404AE /*  GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466482D2837C403000404AE /*  GeometryPreferenceKeyBootcamp.swift */; };
 		046648302837C6B1000404AE /* ScrollViewoffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466482F2837C6B1000404AE /* ScrollViewoffsetPreferenceKeyBootcamp.swift */; };
+		0476FD3429E40DD2004F8489 /* DonutChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476FD3329E40DD2004F8489 /* DonutChart.swift */; };
 		0482B9C928325D22001C984F /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482B9C828325D22001C984F /* ViewBuilderBootcamp.swift */; };
 		0488F0A127D62D830079AB4A /* DownloadWithEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488F0A027D62D830079AB4A /* DownloadWithEscapingBootcamp.swift */; };
 		0488F0A327D62DD30079AB4A /* DownloadWithEscapingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488F0A227D62DD30079AB4A /* DownloadWithEscapingViewModel.swift */; };
@@ -171,11 +173,13 @@
 		0458B87427D0CF6800021DB3 /* CoreDataRelationshipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipViewModel.swift; sourceTree = "<group>"; };
 		0458B87627D0D03600021DB3 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		0458B87927D0D22D00021DB3 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
+		0460F30529B0E10800E352C3 /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 		046415DF282283BB00FB5858 /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
 		046415E22822844300FB5858 /* GenericsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsViewModel.swift; sourceTree = "<group>"; };
 		046415E42822933C00FB5858 /* GenericsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsModel.swift; sourceTree = "<group>"; };
 		0466482D2837C403000404AE /*  GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " GeometryPreferenceKeyBootcamp.swift"; sourceTree = "<group>"; };
 		0466482F2837C6B1000404AE /* ScrollViewoffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewoffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		0476FD3329E40DD2004F8489 /* DonutChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChart.swift; sourceTree = "<group>"; };
 		0482B9C828325D22001C984F /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
 		0488F0A027D62D830079AB4A /* DownloadWithEscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingBootcamp.swift; sourceTree = "<group>"; };
 		0488F0A227D62DD30079AB4A /* DownloadWithEscapingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingViewModel.swift; sourceTree = "<group>"; };
@@ -355,6 +359,14 @@
 			path = PreferenceKeyBootcamp;
 			sourceTree = "<group>";
 		};
+		0476FD3229E40DBC004F8489 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				0476FD3329E40DD2004F8489 /* DonutChart.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
 		0488F09F27D62D540079AB4A /* DownloadWithEscapingBootcamp */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,6 +461,7 @@
 			isa = PBXGroup;
 			children = (
 				04C7020A29AF73CA00360A99 /* DoCatchTryThrows_Bootcamp.swift */,
+				0460F30529B0E10800E352C3 /* DownloadImageAsync.swift */,
 			);
 			path = SwiftUI_Concurrency;
 			sourceTree = "<group>";
@@ -531,6 +544,7 @@
 		04EF681527B161C50026C1C4 /* SwiftUI_Concepts */ = {
 			isa = PBXGroup;
 			children = (
+				0476FD3229E40DBC004F8489 /* Extras */,
 				04C7020829AF6A9A00360A99 /* SwiftUI_Concurrency */,
 				04EF682B27B1621E0026C1C4 /* SwiftUI_Advance */,
 				04EF682A27B162060026C1C4 /* SwiftUI_Intermidiate */,
@@ -789,6 +803,7 @@
 				04EF681927B161C50026C1C4 /* ContentView.swift in Sources */,
 				0488F0A327D62DD30079AB4A /* DownloadWithEscapingViewModel.swift in Sources */,
 				043ED94427C4EAF900F0855F /* LongPressGestureBootcamp.swift in Sources */,
+				0460F30629B0E10800E352C3 /* DownloadImageAsync.swift in Sources */,
 				04213EDD27B284ED005706B3 /* Background&OverlayBootcamps.swift in Sources */,
 				0428949A27CB8C580063E87A /* LocalPushNotificationsBootcamp.swift in Sources */,
 				0458B87A27D0D22D00021DB3 /* CoreDataContainer.xcdatamodeld in Sources */,
@@ -815,6 +830,7 @@
 				04AB684327D4899500BCED11 /* WeakSelfViewModel.swift in Sources */,
 				04A4422B27C79ED200D28469 /* DragGestureBootcamp.swift in Sources */,
 				04C1E95A27D4C67500BC8004 /* CodableViewModel.swift in Sources */,
+				0476FD3429E40DD2004F8489 /* DonutChart.swift in Sources */,
 				0408BF1F2876F01E00281D86 /* UIViewRepresentableBootcamp.swift in Sources */,
 				04CC251727BCF0FF00C963F7 /* ColorPickerBootcamp.swift in Sources */,
 				04D5787F27DB75B9000EC980 /* ImageLoadingViewModel.swift in Sources */,

@@ -29,9 +29,7 @@ struct AnimationBootcamp: View {
                 .rotationEffect(Angle(degrees: isAnimation ? 360 : 0))
                 .offset(y: isAnimation ? 300 : 0)
                 .shadow(radius: 10)
-                .animation(
-                    Animation.default.repeatForever(autoreverses: false)
-                )
+                .animation( Animation.default.repeatForever(autoreverses: false), value: isAnimation)
         }
     }
 }

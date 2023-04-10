@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         //ViewModifierBootcamp()
-        DoCatchTryThrows_Bootcamp()
+//        DownloadImageAsync()
+        DonutChart(slices: data)
     }
 }
 

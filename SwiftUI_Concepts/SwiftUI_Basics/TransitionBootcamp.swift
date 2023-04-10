@@ -36,7 +36,7 @@ struct TransitionBootcamp: View {
                     .transition(.asymmetric(
                         insertion: .move(edge: .bottom),
                         removal: AnyTransition.opacity.animation(.easeInOut)))
-                    .animation(.easeInOut)
+                    .animation(.easeInOut, value: showView)
             }
         }
         .ignoresSafeArea(edges: .bottom)
